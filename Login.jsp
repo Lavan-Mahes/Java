@@ -8,9 +8,9 @@
 <%
 if((request.getParameter("username").equals("ramu"))&&(request.getParameter("password").equals("123"))) {
 %>
-<jsp:forward page="forward2.jsp"/>
+<jsp:forward page="Welcome.jsp"/>
 <% } else { %>
-<%@include file="forward.html"%>
+<%@include file="Login.html"%>
 <% } %>
 </body>
 </html>
